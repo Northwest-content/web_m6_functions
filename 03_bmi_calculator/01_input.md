@@ -10,7 +10,9 @@ Using this equation:
 
 ![img](https://lh3.googleusercontent.com/wAFwMMfJAXlj6xs9DHyuMhRwybflGhTFnTVFKu4wpax07r99HAvOKKfgshO7-jsiqrqkYQn0I1YMsXx7_5vJXtPYqa8U5jZ5_wgZn_-IvUOa_4YlMojTGDHcohS1bE-lUTpoaw1X)
 
-Based on this image, we will know what to say to the user:![img](https://lh3.googleusercontent.com/ZK96UhvBmGpVpPaVvV0du8-6dQ7dO6UEdbuXG77QbuYC6jTEyvUKIJG_sdyS0KIjbG9O3NqpHrIFOsG9FJ_zUI4UvudG9G6RsRKzlM-PMlo-6DcMTD5hlZtxSb0c00lSxxmsxOXU)Now lets learn 🔥😎
+Based on this image, we will know what to say to the user:
+
+![img](https://lh3.googleusercontent.com/ZK96UhvBmGpVpPaVvV0du8-6dQ7dO6UEdbuXG77QbuYC6jTEyvUKIJG_sdyS0KIjbG9O3NqpHrIFOsG9FJ_zUI4UvudG9G6RsRKzlM-PMlo-6DcMTD5hlZtxSb0c00lSxxmsxOXU)Now lets learn 🔥😎
 
 As you see having prompt is nice, but might annoy the user 😅. How about changing the way that we take our input? `HTML` is here to the rescue with an `<input>`.
 
