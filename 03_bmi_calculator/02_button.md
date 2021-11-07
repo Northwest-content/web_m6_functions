@@ -6,25 +6,27 @@ Now we will do the `Get Result` button in steps:
 
 2. Use the `onClick` to call `getBMI`
 
-   ![img](https://lh5.googleusercontent.com/tDVmR_eCijBgOLwMWHtaMviiC5YbCV-wu5fkSn9LL0-xbIFCLEHMRDpxfQHa0tulsRTScfSZbj44gL9_ufT8vlWpqbtC0NUM_ZZyX2Se287aPnSd0KQvXiEaqLletBhQAV5W_u1w)
+![img](https://lh5.googleusercontent.com/tDVmR_eCijBgOLwMWHtaMviiC5YbCV-wu5fkSn9LL0-xbIFCLEHMRDpxfQHa0tulsRTScfSZbj44gL9_ufT8vlWpqbtC0NUM_ZZyX2Se287aPnSd0KQvXiEaqLletBhQAV5W_u1w)
 
 3. Give each `input` an `id` to be able to call it
 
-   ![img](https://lh5.googleusercontent.com/0IEHrzWWs64PNJ_qiduasTdsQagHXXuMRXZJi_OzbOLQKjzKhoGBsCBvVrHshlF-IX_-TlljhCK30qN60hFehf0a7Jptgr1SPsQej0in2CCubFT6UO9hiqxOGV0YHIBdNLESGnyn)
+![img](https://lh5.googleusercontent.com/0IEHrzWWs64PNJ_qiduasTdsQagHXXuMRXZJi_OzbOLQKjzKhoGBsCBvVrHshlF-IX_-TlljhCK30qN60hFehf0a7Jptgr1SPsQej0in2CCubFT6UO9hiqxOGV0YHIBdNLESGnyn)
 
 4. Collect the `height` and `weight` from the inputs 
 
    To be able to take a value we will say `document.querySelector().value`
 
-   ![img](https://lh5.googleusercontent.com/s1sj_XIsTZ4iBnr7v0BRAz1JxiUHLXadGmiLRs2FcS18uLfcRHTdWLvEvIFPNvrpfoOAmIXihaNsDiBiW6U-1dkKTur2cYMS6SLAVvcsOvKWc-0mXAJgaPUaBqhNconSgjF6lfRm)
+![img](https://lh5.googleusercontent.com/s1sj_XIsTZ4iBnr7v0BRAz1JxiUHLXadGmiLRs2FcS18uLfcRHTdWLvEvIFPNvrpfoOAmIXihaNsDiBiW6U-1dkKTur2cYMS6SLAVvcsOvKWc-0mXAJgaPUaBqhNconSgjF6lfRm)
 
 5. Do the calculation and save it in variable `result`
 
-   Equation will be `result = w/(h*h)`![img](https://lh6.googleusercontent.com/WCXeIpxjAogcK-AcWkGE59tZArCVMUgsjhRjWsOcr_XdZSNIRPJrky0WTEn_PRRtVUdEfQY37_kU-_L9lKRMA_ibqig38hvSCC8-8E4MAiSX9Tj4eHSBLTuC9OFr4xjmGQzBes8X)
+   Equation will be `result = w/(h*h)`
+   
+![img](https://lh6.googleusercontent.com/WCXeIpxjAogcK-AcWkGE59tZArCVMUgsjhRjWsOcr_XdZSNIRPJrky0WTEn_PRRtVUdEfQY37_kU-_L9lKRMA_ibqig38hvSCC8-8E4MAiSX9Tj4eHSBLTuC9OFr4xjmGQzBes8X)
 
 6. Display result inside the `result` box
 
-   ![img](https://lh4.googleusercontent.com/CkE3rJ3Ep5luVt9i7eUuuEBZwuiAsZrZ9HFPJAgIwsVjJbNTFg9L-YhqkliNQmfIHqimgYHrkJ9vDwpqQVhRMFAZDsI9ewT2gyM4JJr9pdpmgjpNdKFDBdV5oTJJfeIX8qN1XV6D)
+![img](https://lh4.googleusercontent.com/CkE3rJ3Ep5luVt9i7eUuuEBZwuiAsZrZ9HFPJAgIwsVjJbNTFg9L-YhqkliNQmfIHqimgYHrkJ9vDwpqQVhRMFAZDsI9ewT2gyM4JJr9pdpmgjpNdKFDBdV5oTJJfeIX8qN1XV6D)
 
    
 
