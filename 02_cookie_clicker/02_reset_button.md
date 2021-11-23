@@ -1,9 +1,8 @@
-Before writing more code in the`<script>` how about we export our `JavaScript`, because `JavaScript` is jealous that `HTML` has its own file and `CSS` has its own stylesheet. Now `JavaScript` needs its own `script` file: 
-
+Before writing more code in the`<script>` how about we export our `JavaScript`, because `JavaScript` is jealous that `HTML` has its own file and `CSS` has its own stylesheet. Now `JavaScript` needs its own `script` file:
 
 ![img](https://lh6.googleusercontent.com/5z4kM8Gn4KU29tsfW0FVnLDpuHKpv3KWusNAZJHZuqqx7ExGyhfAVlWYbTLiL7GrAUzNq9vT-xE1Uj-tAe401Ux1I6avmFMc9fcJBPnBTjfQvIi_zz-aiYqbQeGo0eueBFZGi3_J)
 
-Now like what we did with `CSS` we must add a bridge between them: ![img](https://lh5.googleusercontent.com/ObeMuRx7AfNUBu7YWvpgD5L1-xe-JOy_3Y_l9cagX1qCa17EzKU6tLUCQQReZB_NZ78ahJ_Z-1kxG5bypcn1Z13AqpzJcLBgcDB50CjxPpu_QpJjQn1H9VtjyUnQhpETiapXNOU8)Now Reset button: 
+Now like what we did with `CSS` we must add a bridge between them: ![img](https://lh5.googleusercontent.com/ObeMuRx7AfNUBu7YWvpgD5L1-xe-JOy_3Y_l9cagX1qCa17EzKU6tLUCQQReZB_NZ78ahJ_Z-1kxG5bypcn1Z13AqpzJcLBgcDB50CjxPpu_QpJjQn1H9VtjyUnQhpETiapXNOU8)Now Reset button:
 
 1. Create a `reset` function
 
@@ -17,18 +16,18 @@ Now like what we did with `CSS` we must add a bridge between them: ![img](https:
 
 ![img](https://lh3.googleusercontent.com/dRSgBfQK-_K_n1-WbqJPR8I6nAeJGXaMcVYKrWSbTAzUqQ2WBz2VidLu4cP6XfC3ClFRj9s9GTtmAkWhR4119jxaNw_U4Zu481_b0ckyKP-Nkj4wURvKrh3Y-yXDXGVtD3yc1shN)
 
-``````html
+```html
 <body class="container">
-    <h1>Cookie Clicker Game</h1>
-    <img src="cookie.png" alt="Cookie">
-    <p id="value"></p>
-    <div onclick="add()">ADD</div>
-    <div onclick="reset()">Reset</div>
-    <script src="script.js"></script>
+  <h1>Cookie Clicker Game</h1>
+  <img src="cookie.png" alt="Cookie" />
+  <p id="value"></p>
+  <div onclick="add()">ADD</div>
+  <div onclick="reset()">Reset</div>
+  <script src="script.js"></script>
 </body>
-``````
+```
 
-``````javascript
+```javascript
 let counter = 0;
 function add() {
   counter = counter + 1;
@@ -38,17 +37,15 @@ function add() {
 function reset() {
   counter = 0;
 }
-``````
+```
 
-**Output:** 
-
+**Output:**
 
 ![img](https://lh6.googleusercontent.com/TkdGyQcH076uqv-8nz1iOzG_P7uAKGulG2vUQ22IWeTxPnR5miBgHAYQ6cmuLljUvddib6imEDVl9trcS7PxECS1fa7HVqSgnVlclGbzQ-uvkHueeuad1HUbFTfrxe2DLzhhxLL7)
 
 **Fix ⚠:**
 
 > Do not forget to let the `innerHTML = counter`
-
 
 ![img](https://lh6.googleusercontent.com/R4QhjlE8oH36Q0cgwAB1TWL-bJo2tyJPGC29wrR653GgazRexa5TcneQDI7uHAN7NIEGINFy20XTOiGCM6gBRG0r0QSVrf16jPtbxAmBKbvze2Da4b40OtrS0tQU5TbwlniNrz2x)
 
